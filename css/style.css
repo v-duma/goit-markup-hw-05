@@ -788,9 +788,11 @@ fill: #4d5ae5;
   color: var(--iris);
 }
 input:checked+label>span{
-  background-color: var(--gray);
+  background-color: var(--ocean);
   fill: var(--cloud);
+  border: none;
 }
+
 .form-span{
   width: 16px;
   height: 16px;
